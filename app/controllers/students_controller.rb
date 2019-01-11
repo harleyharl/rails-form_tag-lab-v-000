@@ -8,7 +8,7 @@ class StudentsController < ApplicationController
   end 
 
   def create 
-    @student = Student.create(first_name, last_name)
+    @student = Student.create(first_name: first_name, last_name: last_name)
   end 
 
   def show
